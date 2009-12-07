@@ -154,7 +154,7 @@
         <dependency>
             <groupId>net.java.desktop</groupId>
             <artifactId>flamingo</artifactId>
-            <version>4.0</version>
+            <version>4.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
