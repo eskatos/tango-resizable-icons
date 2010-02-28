@@ -165,12 +165,12 @@
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
+    <pluginRepositories>
+        <pluginRepository>
             <id>codeartisans-public</id>
             <url>https://codebox.codeartisans.org/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
+        </pluginRepository>
+    </pluginRepositories>
 
     <distributionManagement>
         <repository>
