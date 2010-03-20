@@ -11,7 +11,7 @@
 
     <groupId>org.codeartisans.java</groupId>
     <artifactId>tango-resizable-icons</artifactId>
-    <version>0.8.90.0</version>
+    <version>0.8.90.1-SNAPSHOT</version>
 
     <name>${project.artifactId}</name>
 
