@@ -29,6 +29,13 @@
                 </configuration>
             </plugin>
             <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.6.1</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>2.1</version>
                 <executions>
