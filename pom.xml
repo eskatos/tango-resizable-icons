@@ -16,6 +16,10 @@
 
     <name>${project.artifactId}</name>
 
+    <scm>
+        <developerConnection>scm:git:ssh://gitosis@codebox.codeartisans.org/${project.artifactId}.git</developerConnection>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
