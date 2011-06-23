@@ -52,9 +52,9 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.codeartisans.mojo</groupId>
+                <groupId>org.codeartisans</groupId>
                 <artifactId>flamingo-maven-plugin</artifactId>
-                <version>1.0</version>
+                <version>1.1-SNAPSHOT</version>
                 <executions>
                     <execution>
                         <id>actions</id>
@@ -182,23 +182,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.github.insubstantial</groupId>
+            <artifactId>flamingo</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <dependency>
             <groupId>org.freedesktop.tango</groupId>
             <artifactId>tango-icon-theme</artifactId>
             <version>0.8.90</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>net.java.desktop</groupId>
-            <artifactId>flamingo</artifactId>
-            <version>4.2</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>codeartisans-public</id>
-            <url>https://codebox.codeartisans.org/nexus/content/groups/public</url>
-        </pluginRepository>
-    </pluginRepositories>
 
 </project>
